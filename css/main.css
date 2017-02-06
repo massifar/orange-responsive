@@ -1,0 +1,182 @@
+body {
+  background-color: #FFFFFF;
+  background-image: url(../img/orange2.jpg);
+  background-repeat: no-repeat;
+  font-family: 'Roboto Slav', sans-serif;
+}
+
+nav {
+  background-color: #FE7E00;
+  font-family: 'Roboto Slav', sans-serif;
+  height: 60px;
+  padding: 20px 0 20px 0;
+  color: #fff;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+nav > a {
+  font-family: 'Roboto Slav', sans-serif;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  top: 20px;
+}
+
+nav ul {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+nav li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  top: 140px;
+  float: left;
+}
+
+header input {
+  background-color: #FFFF00;
+}
+
+.main-feature {
+  float: left;
+  margin: 0 0 90px 90px;
+  padding: 220px 0 90px 90px;
+}
+.side-feature {
+  font-size: 55px;
+  float: right;
+  margin: 90px 0 0 0;
+  padding: 90px 90px 0 90px;
+  height: 144px;
+  width: 60%;
+  text-align: left;
+}
+
+.side-feature p {
+  color: #7ACCC8;
+}
+
+.side-feature > button {
+  display: inline-block;
+  padding: 20px;
+  color: #FF0000;
+  font-size: 25px;
+  background-color: #7ACCC8;
+  float: left;
+}
+
+.side-feature >  p span {
+  color: #ff0000;
+  font-size: 60px;
+}
+
+.side-feature > button span {
+  background-color: #FE7E00;
+}
+
+@media (max-width:744px) {
+  nav > a {
+    font-size: 20px;
+  }
+  nav ul {
+    top: 8px;
+  }
+  .side-feature p {
+    font-size: 35px;
+  }
+  .side-feature > button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:649px) {
+  nav > a {
+    font-size: 25px;
+    left: 0;
+    top: 35px;
+  }
+  nav ul {
+    font-size: 18px;
+    top: 24px;
+  }
+  nav li:last-child {
+    display: none;
+  }
+}
+
+@media (max-width:575px) {
+  nav > a {
+    font-size: 20px;
+  }
+  nav ul {
+    font-size: 15px;
+  }
+  .side-feature p {
+    font-size: 30px;
+  }
+  .side-feature > button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:498px) {
+  nav > a {
+    font-size: 18px;
+  }
+  nav ul {
+    font-size: 12px;
+    top: 28px;
+  }
+}
+
+@media (max-width:441px) {
+  nav ul {
+    right: 0px;
+  }
+  .side-feature > button {
+    font-size: 8px;
+  }
+}
+@media (max-width:414px){
+  nav ul {
+    right: 0;
+    font-size: 10px;
+    top: 32px;
+  }
+  .side-feature p {
+    font-size: 10px;
+  }
+}
+@media (max-width:408px){
+  nav > a {
+    font-size: 15px;
+    top: 36px;
+  }
+  .side-feature p {
+    font-size: 20px;
+  }
+  .side-feature > p span {
+    font-size: 12px;
+  }
+}
